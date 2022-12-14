@@ -67,6 +67,9 @@ footer{
     margin-bottom: 20px;
     background-color: rgb(253 242 248);
     border-radius: 2%;
+    box-shadow: 11px 10px 5px 0px rgba(189,189,189,0.75);
+    -webkit-box-shadow: 11px 10px 5px 0px rgba(189,189,189,0.75);
+     -moz-box-shadow: 11px 10px 5px 0px rgba(189,189,189,0.75);
 }
 
 .logo{

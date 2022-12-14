@@ -178,3 +178,36 @@ footer{
     margin-right: 25px;
     background-color: rgb(253 242 248) ;
 }
+
+/* GALLERY */
+
+.gallery{
+    background-color: rgb(251 207 232);
+}
+/* //Gallery */
+
+
+/* CONTACT */
+
+  
+
+.contact-form{
+    background-color: rgb(251 207 232);
+}
+
+.text-area{
+    resize: none;
+}
+
+.form-control{
+   
+    background: none;
+    border:none;
+    padding: 5px 0;
+    border-bottom: 1px solid #777;
+
+}
+
+.btn{
+    padding: 5px 50px 5px 50px ;
+}

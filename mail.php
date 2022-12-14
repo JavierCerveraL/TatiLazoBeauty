@@ -1,3 +1,21 @@
+<?php
+
+$name = $_POST['name']
+$email = $_POST['email']
+$subject = $_POST['subject']
+$message = $_POST['message']
+
+$mailheader = "From:".$name."<" .$email.">\r\n";
+
+$recipient = "jvrmgmt@gmail.com";
+
+mail($recipient, $subject, $message, $mailheader) or die ("Error!");
+
+echo '
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -50,39 +68,10 @@
 
 <!-- FORM -->
 
-<div class="container contact-form">
-  <div class="row">
-    <div class="row-cols-md-2">
-
-      <form action="mail.php" method="POST">
-
-        <div class="form-group">
-          <label for="name">Name: </label>
-          <input class="form-control" type="text" name="name" id="name">
-        </div>
-
-        <div class="form-group">
-          <label for="email">E-mail: </label>
-          <input class="form-control" type="email" name="email" id="email">
-        </div>
-
-        <div class="form-group">
-          <label for="subject">Subject: </label>
-          <input class="form-control" type="text" name="subject" id="subject">
-        </div>
-
-        <div class="form-group">
-          <label for="message">Message: </label>
-          <textarea class="form-control text-area" name="message" cols="30" rows="5" id=""></textarea>
-        </div>
-
-        <div class="form-group">
-        <input class="btn btn-danger mt-4 mb-4 " type="button" value="Send">
-      </div>
-      </form>
-
-    </div>
-  </div>
+<div class="container text-center contact-form">
+  <h1 class="pt-5">Thank you for contacting us.</h1> <br>
+  <h2>We will get back at you as soon as possible.</h2> <br>
+  <h6 class="pb-5">Go back to <a  href="index.html">home page</a> </h6>
 </div>
 
 <!-- //FORM -->
@@ -130,3 +119,15 @@
 <script src="assets/js/main.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+';
+
+?>

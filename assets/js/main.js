@@ -1,4 +1,6 @@
 
+// MODAL ///
+
 document.addEventListener("click", function(e){
     if(e.target.classList.contains("productos-item")){
         const src = e.target.getAttribute("src");
@@ -8,3 +10,11 @@ document.addEventListener("click", function(e){
         myModal.show();
     }
 })
+
+
+
+
+// MODAL ENDS//
+
+
+

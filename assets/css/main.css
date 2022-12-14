@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=Roboto:ital@0;1&family=Syncopate:wght@400;700&family=Syne:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&family=Roboto:ital@0;1&family=Syncopate:wght@400;700&family=Syne:wght@400;700&display=swap');
 
 *{
     margin: 0;
@@ -8,11 +8,36 @@
 
 html, body{
     background-color: rgb(252 231 243);
-    font-family: 'Syne', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    line-height: 30px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
 }
 
 .navbar{
     background-color: rgb(251 207 232) !important;
+    border-bottom: 2px solid white;
+    
+}
+
+.nav-link{
+    font-weight: bold;
+    color: #0f0f0f !important;
+
+}
+
+.nav-link:hover{
+    color: #e5576f !important;
+    transition: 0.5s all ease-in-out;
+    text-decoration: underline;
 }
 
 .pluggin{

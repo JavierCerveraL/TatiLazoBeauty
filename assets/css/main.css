@@ -31,7 +31,7 @@ footer{
 .bookContainer{
     padding-top: 50px;
     margin-left: 20px;
-    
+    padding-bottom: 25px;
 }
 
 .logo{
@@ -41,7 +41,7 @@ footer{
 }
 
 .logo img{
-    max-width: 250px;
+    max-width: 200px;
     min-width: 100px;
     border-radius: 5%;
 }

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=Roboto:ital@0;1&family=Syncopate:wght@400;700&family=Syne:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    background-color: rgb(252 231 243);
+    font-family: 'Syne', sans-serif;
+}
+
+.navbar{
+    background-color: rgb(251 207 232) !important;
+}
+
+.pluggin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 25px;
+
+}
+
+footer{
+    background-color: rgb(251 207 232) !important;
+}
+
+.bookContainer{
+    padding-top: 50px;
+    
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.logo img{
+    max-width: 250px;
+    min-width: 100px;
+    border-radius: 5%;
+}

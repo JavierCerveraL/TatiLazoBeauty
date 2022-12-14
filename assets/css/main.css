@@ -10,7 +10,7 @@ html, body{
     background-color: rgb(252 231 243);
     font-family: 'Roboto', sans-serif;
     line-height: 30px;
-    color: hsl(0, 0%, 21%) !important;
+    color: hsl(0, 0%, 14%)!important;
 }
 
 h1,
@@ -31,12 +31,12 @@ h6{
 
 .nav-link{
     font-weight: bold;
-    color: hsl(0, 0%, 21%) !important;
+    color:hsl(0, 0%, 14%) !important;
 
 }
 
 .nav-link:hover{
-    color: rgb(244 63 94) !important;
+    color: rgb(246, 55, 87) !important;
     transition: 0.5s all ease-in-out;
     text-decoration: underline;
 }
@@ -85,6 +85,6 @@ footer{
 
 footer{
     background-color: rgb(251 207 232) !important;
-    color: hsl(0, 0%, 21%) !important;
+    color: hsl(0, 0%, 14%)!important;
 }
 

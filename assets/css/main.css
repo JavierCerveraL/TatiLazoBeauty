@@ -166,5 +166,15 @@ footer{
 .modal-img{
     width: 55% !important;
     
-    
+
+}
+
+/* POLICIES */
+
+.policy-cont{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: rgb(253 242 248) ;
 }

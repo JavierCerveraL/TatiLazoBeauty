@@ -35,7 +35,7 @@ h6{
 }
 
 .nav-link:hover{
-    color: #e5576f !important;
+    color: rgb(244 63 94) !important;
     transition: 0.5s all ease-in-out;
     text-decoration: underline;
 }

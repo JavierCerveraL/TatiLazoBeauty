@@ -24,6 +24,10 @@ h6{
     font-weight: 700;
 }
 
+img{
+    width: 100%;
+}
+
 .navbar{
     background-color: rgb(251 207 232) !important;
     border-bottom: 2px solid white;
@@ -211,3 +215,4 @@ footer{
 .btn{
     padding: 5px 50px 5px 50px ;
 }
+

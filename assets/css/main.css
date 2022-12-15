@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&family=Roboto:ital@0;1&family=Syncopate:wght@400;700&family=Syne:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Exo+2:ital,wght@0,400;0,700;1,600&family=M+PLUS+Rounded+1c:wght@400;700&family=Montserrat:wght@700&family=Roboto:wght@400;700&family=Rubik:wght@400;500;700&display=swap');
 
 *{
     margin: 0;
@@ -10,7 +10,7 @@ html, body{
     background-color: rgb(252 231 243);
     font-family: 'Roboto', sans-serif;
     line-height: 30px;
-    color: hsl(0, 0%, 14%)!important;
+    color: hsl(0, 0%, 7%)!important;
     scroll-behavior: smooth !important;
 }
 
@@ -20,7 +20,7 @@ h3,
 h4,
 h5,
 h6{
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
 
@@ -75,19 +75,24 @@ footer{
 
 }
 
+/* HERO  */
+
 .logo{
     display: flex;
     justify-content: center;
     margin-top: 25px;
     margin-bottom: 25px;
+    background-image: linear-gradient(to left bottom, #b67675, #c38284, #cf8d93, #db9aa2, #e7a6b2, #e8a8b3, #e8a9b5, #e9abb6, #dfa2aa, #d4999d, #ca9092, #bf8786);
 }
 
 .logo img{
-    max-width: 200px;
+    max-width: 300px;
     min-width: 100px;
     border-radius: 2%;
-    filter: drop-shadow(15px 1px 11px #C5C5C5);
+    filter: drop-shadow(3px 1px 5px #472f2a);
 }
+
+/* //HERO */
 
 footer{
     background-color: rgb(251 207 232) !important;

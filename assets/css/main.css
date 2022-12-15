@@ -46,15 +46,7 @@ img{
     text-decoration: underline;
 }
 
-.pluggin{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    
-    margin-bottom: 55px;
 
-}
 
 .botones{
     margin-bottom: 25px;
@@ -136,13 +128,32 @@ footer{
 }
 
 .logo img{
-    max-width: 300px;
+    max-width: 400px;
     min-width: 100px;
     border-radius: 2%;
     filter: drop-shadow(3px 1px 5px #472f2a);
 }
 
 /* //HERO */
+
+
+/* HOME PAGE */
+
+
+.pluggin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    margin-bottom: 55px;
+
+}
+
+
+/* ///home page */
+
+
 
 footer{
     background-color: rgb(251 207 232) !important;

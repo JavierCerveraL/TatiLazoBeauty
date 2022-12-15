@@ -75,6 +75,42 @@ footer{
 
 }
 
+/* POPUP */
+
+.popup{
+    background-color: #fafafa;
+    width: 450px;
+    padding: 30px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top:50%;
+    border: 1px solid hsl(0, 0%, 14%);
+    border-radius: 8px;
+    display: none
+    ;
+}
+
+.popup button{
+    display: block;
+    margin: 0 0 20px auto;
+    background-color: transparent;
+    font-size: 20px;
+    border: hsl(0, 0%, 14%);
+    outline: none;
+    cursor: pointer;
+}
+
+.popup p{
+    font-size: 16px;
+    text-align: justify;
+    margin: 20px 0;
+}
+
+/* //popup */
+
+
+
 /* HERO  */
 
 .logo{

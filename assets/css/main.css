@@ -7,7 +7,7 @@
 }
 
 html, body{
-    background-color: rgb(252 231 243);
+    background-color: #ffdfe5;
     font-family: 'Roboto', sans-serif;
     line-height: 30px;
     color: hsl(0, 0%, 7%)!important;
@@ -29,7 +29,7 @@ img{
 }
 
 .navbar{
-    background-color: rgb(251 207 232) !important;
+    background-color: #FFC0CB !important;
     border-bottom: 2px solid white;
     
 }
@@ -156,15 +156,17 @@ footer{
 
 
 footer{
-    background-color: rgb(251 207 232) !important;
+    background-color: #FFC0CB  !important;
     color: hsl(0, 0%, 14%)!important;
 }
 
 /* SHOP */
 
+/* 
 .products{
-    background-color:  rgb(251 207 232) ;
-}
+    background-color:  #fff8f9 ;
+   
+} */
 
 .productos-item{
     max-width: 100%;
@@ -250,23 +252,23 @@ footer{
     padding-bottom: 25px;
     margin-left: 25px;
     margin-right: 25px;
-    background-color: rgb(253 242 248) ;
+    /* background-color: rgb(253 242 248) ; */
 }
 
 /* GALLERY */
 
 .gallery{
-    background-color: rgb(251 207 232);
+    /* background-color: rgb(251 207 232); */
 }
 /* //Gallery */
 
 
 /* CONTACT */
 
-  
+
 
 .contact-form{
-    background-color: rgb(251 207 232);
+    /* background-color: rgb(251 207 232); */
 }
 
 .text-area{

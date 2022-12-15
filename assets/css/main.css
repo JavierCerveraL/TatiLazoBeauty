@@ -174,9 +174,13 @@ footer{
 }
 
 .modal-img{
-    width: 55% !important;
+    width: 100% !important;
     
 
+}
+
+.modal-info{
+    line-height: 100px !important;
 }
 
 /* POLICIES */

@@ -291,3 +291,13 @@ footer {
   background-color: #ffffff;
   color: hsl(0, 0%, 7%);
 }
+
+.policy-cont {
+  background-color: #fafafa;
+  padding: 30px;
+  margin: 25px;
+}
+
+.policy-red {
+  color: red;
+}
